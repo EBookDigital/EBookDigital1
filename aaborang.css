@@ -1,0 +1,106 @@
+img.tajuk {
+    margin-top: 80px;
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+    padding: 10px 22px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 30px auto 0px;
+    background-color: mediumorchid;
+    box-shadow: 15px 15px 6px 0px rgba(96, 96, 96, 0.7);
+}
+
+form {
+    text-align: center;
+    
+    padding: 20px;
+    border: 2px solid mediumorchid;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px auto;
+    background-color: #e5dfe5;
+    box-shadow: 15px 15px 6px 0px rgba(57, 43, 43, 0.67);
+}
+
+h4 {
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 330px;
+    
+    padding: 10px 22px;
+    margin: 20px auto 0px;
+    box-shadow: 15px 15px 6px 0px rgba(96, 96, 96, 0.7);
+}
+
+h4.ok {
+    background-color: blue;
+}
+
+h4.ralat {
+    background-color: red;
+}
+
+div.ralat {
+    text-align: center;
+    width: 330px;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    margin: 0px auto 0px;
+    background-color: white;
+    box-shadow: 15px 15px 6px 0px rgba(57, 43, 43, 0.67);
+}
+
+div.ok {
+    text-align: center;
+    width: 330px;
+    padding: 20px;
+    border: 2px solid darkgreen;
+    margin: 0px auto 0px;
+    background-color: white;
+    box-shadow: 15px 15px 6px 0px rgba(57, 43, 43, 0.67);
+}
+
+form.pendek, h3.pendek {
+    width: 270px; 
+}
+
+form.panjang, h3.panjang {
+    width:380px;
+}
+
+input[type="text"], 
+input[type="password"],
+input[type="datetime-local"],
+select {
+    width: 200px;
+    padding: 7px 15px; 
+    margin: 5px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    color: silver;
+}
+
+input[type="file"] {
+    width: 200px;
+    padding: 2px;
+    margin: 5px;
+}
+
+td:nth-child(1) {
+    font-family: verdana;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    
+    width: 200px;
+}
